@@ -17,8 +17,8 @@ string compress(string x){
 
 int main()
 {
-    string a = compress("ABCDEFGHIJKLMN");
-    string b = compress("123456");
+    string a = compress("CPECMU");
+    string b = compress("X");
     string c = compress("HelloWorld");
     string d = compress("BNK48");
     string e = compress("COMPROG261102");
