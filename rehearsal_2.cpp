@@ -1,1 +1,30 @@
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
 
+int main(){
+    float sum=0,x;
+    cout << "Enter x: ";
+    cin >> x;
+    while (x!=0){
+        if(x>0){
+            sum=sum+x;
+        }
+        cout << "Enter x: ";
+        cin >> x;
+    }
+    if(x==0){
+        cout <<"sum = "<< sum;
+    }
+    return 0;
+
+
+
+
+
+
+
+
+
+}
